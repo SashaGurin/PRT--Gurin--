@@ -1,25 +1,31 @@
 header.header
   .container
-    .header__iner
-      .header__iner-left
-        .header__logo.logo
-          a.logo-link(href="#")
-            img.logo-img(src="assets/imgs/logo.png", alt="картинка")
-        button.burger(type="button")
-          span.burger-item
-        .haeder__menu.menu
-          ul.menu-list
-            li.menu-item
-              a.menu-link(href="#") Homefer
-            li.menu-item
-              a.menu-link(href="#") About us
-            li.menu-item
-              a.menu-link(href="#") Menu
-            li.menu-item
-              a.menu-link(href="#") Features
-            li.menu-item
-              a.menu-link(href="#") Contact us
-      .header__iner-right
-        a.header__btn.btn Booking Now
+    .header__nav
+      .header__logo.logo
+        a.logo-link(href="#") Kelvin
+      nav.haeder__menu.menu
+        ul.menu-list
+          li.menu-item
+            a.menu-link.active(href="#") Home
+          li.menu-item
+            a.menu-link(href="#") Works
+          li.menu-item
+            a.menu-link(href="#") Services
+          li.menu-item
+            a.menu-link(href="#") About
+          li.menu-item
+            a.menu-link(href="#") Contact
+        button.mobile-nav-button(type="button")
+          span.mobile-nav-button__icon
+    .header__content
+      .header__content-info
+        h1.header__title
+          |  Kelvin Kramer
+          br
+          |  Designer & Developer
+        p.header__text I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.
+      .header__content-img
+        img(src="assets/imgs/hero.png", alt="baner-info")
+
 
 

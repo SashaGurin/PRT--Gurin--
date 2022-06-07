@@ -1,5 +1,67 @@
-body {
-    background-color: red;
+@import "../main/vars";
+.header {
+  padding-top: 46px;
+  background: #f1f1f1;
 
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    .logo-link {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 100%;
+      color: $primerycolor-black;
+      text-decoration: none;
+    }
+  }
+  .haeder__menu.menu {
+    display: flex;
+    align-items: center;
+    .menu-link {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 150%;
+      color: #000000;
+      text-decoration: none;
+      &.active {
+        color: #606060;
+      }
+    }
+  }
+  .menu-list {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+  }
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-top: 76px;
+    .header__content-info {
+      max-width: 500px;
+      font-family: "Poppins";
+      font-style: normal;
+
+
+      .header__title {
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 150%;
+        color: $primerycolor-black;
+        margin-bottom: 20px;
+      }
+      .header__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 200%;
+        color: $primerycolor-black;
+      }
+    }
+  }
 }
-
