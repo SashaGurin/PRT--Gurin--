@@ -1,24 +1,25 @@
+@import "../main/vars";
 .passion {
-  margin-top: 69px;
-  margin-bottom: 160px;
-  @media (max-width:788px) {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  @media (max-width:767.99px) {
     margin-bottom: 80px;
     margin-top: 49px;
    }
   .benefits {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding-top: 19px;
-    margin: 0 20px;
-    @media (max-width:788px) {
+    @media (max-width:767.99px) {
       display: block;
       padding-top: 0px;
      }
     &__item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       margin: 0 10px;
       text-align: center;
-      @media (max-width:788px) {
+      @media (max-width:767.99px) {
         margin-top: 30px;
        }
       .benefits__img-box {
@@ -31,7 +32,7 @@
         margin-bottom: 33px;
         border-radius: 50%;
         background: rgba(143, 166, 50, 0.1);
-        @media (max-width:788px) {
+        @media (max-width:767.99px) {
           margin-bottom: 15px;
          }
 
@@ -43,7 +44,12 @@
         background: rgba(220, 120, 11, 0.1);
       }
       .benefits__text {
-        line-height: 24px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 200%;
+        color: $primerycolor-black;
         opacity: 0.7;
         max-width: 300px;
         margin: 0 auto;
@@ -53,11 +59,12 @@
 }
 .benefits__title.middle-title,
 .middle-title {
-  font-family: $secondary-font;
+  font-family: $primery-font;
   font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 24px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-transform: uppercase;
   color: $primerycolor-black;
   margin-bottom: 15px;
 }
