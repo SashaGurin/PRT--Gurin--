@@ -17,12 +17,29 @@ body {
   }
 
   .btn {
-    line-height: 19px;
+    display: inline-block;
     color: $primerycolor-white;
-    padding: 13px 30px;
-    background: $primerycolor-orange;
-    border-radius: 5px;
+    padding: 7px 23px;
+    background: #070707;
+    border-radius: 55px;
     cursor: pointer;
+    text-decoration: none;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .title__1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 150%;
+    color: #070707;
   }
 
 

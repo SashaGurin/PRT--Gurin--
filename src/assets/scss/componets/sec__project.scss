@@ -1,0 +1,31 @@
+@import "../main/vars";
+.project {
+  background: #f1f1f1;
+  padding: 90px 0px;
+  text-align: center;
+  .project__title {
+    margin-bottom: 70px;
+  }
+  .project__item + .project__item {
+    margin-top: 90px;
+  }
+  .project__item {
+    .project__box-img {
+      margin: 0 auto;
+      margin-bottom: 40px;
+      max-width: 930px;
+    }
+    .project__box-img img {
+      max-width: 100%;
+      object-fit: cover;
+      height: 100%;
+    }
+    .project__title a {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      text-decoration-line: underline;
+      color: #070707;
+    }
+  }
+}
