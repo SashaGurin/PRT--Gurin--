@@ -52,6 +52,10 @@
       line-height: 150%;
       text-decoration-line: underline;
       color: #070707;
+      transition: color 0.2s ease-in;
+      &:hover {
+        color: #00000091;
+      }
       @media (max-width: 450.99px) {
         font-size: 15px;
       }

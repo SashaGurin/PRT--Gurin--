@@ -44,9 +44,9 @@
   align-items: center;
   column-gap: 50px;
 }
-.mobile-nav {
-  display: none;
-}
+// .mobile-nav {
+//   display: none;
+// }
 
 .header__content {
   display: flex;
@@ -116,6 +116,8 @@
     }
   }
 }
+
+// Mobile navigation ..........................
 .mobile-nav {
   display: none;
 
@@ -133,7 +135,7 @@
   justify-content: space-between;
   padding: 40px 15px;
 
-  text-align: center;
+  // text-align: center;
   .menu-link {
     font-size: 34px;
     line-height: 150%;
