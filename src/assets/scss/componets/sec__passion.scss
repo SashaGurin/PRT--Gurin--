@@ -3,8 +3,8 @@
   margin-top: 90px;
   margin-bottom: 90px;
   @media (max-width:767.99px) {
-    margin-bottom: 80px;
-    margin-top: 49px;
+    margin-bottom: 60px;
+    margin-top: 55px;
    }
   .benefits {
     display: flex;
@@ -67,6 +67,10 @@
   text-transform: uppercase;
   color: $primerycolor-black;
   margin-bottom: 15px;
+  @media (max-width:768px) {
+    margin-bottom: 5px;
+
+  }
 }
 .title__box {
   text-align: center;

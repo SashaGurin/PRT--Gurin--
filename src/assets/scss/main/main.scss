@@ -1,45 +1,46 @@
 @import "../main/vars.scss";
 
-
 body {
-    font-family: $primery-font;
-    font-size: 16px;
-    font-weight: 400;
-    color: $primerycolor-black;
-    background-color: $primerycolor-white;
+  font-family: $primery-font;
+  font-size: 16px;
+  font-weight: 400;
+  color: $primerycolor-black;
+  background-color: $primerycolor-white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1230px;
+  padding: 0px 30px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  color: $primerycolor-white;
+  padding: 7px 23px;
+  background: #070707;
+  border-radius: 55px;
+  cursor: pointer;
+  text-decoration: none;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  transition: background 0.15s ease-in;
+  &:hover {
+    background: #070707af;
   }
+}
 
-  .container {
-    width: 100%;
-    max-width: 1230px;
-    padding: 0px 30px;
-    margin: 0 auto;
-  }
-
-  .btn {
-    display: inline-block;
-    color: $primerycolor-white;
-    padding: 7px 23px;
-    background: #070707;
-    border-radius: 55px;
-    cursor: pointer;
-    text-decoration: none;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    text-align: center;
-  }
-
-  .title__1 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 150%;
-    color: #070707;
-  }
-
-
+.title__1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 150%;
+  color: #070707;
+}
