@@ -1,5 +1,1 @@
-# поменять packaje.json !!!!!!!
-## Запустить команду -npm ci
-## Чтобы запустить процесс
- -gulp
- upt
+прямая ссылка на проект:  https://sashagurin.github.io/PRT--Gurin--/build/
