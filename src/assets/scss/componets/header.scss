@@ -29,8 +29,7 @@
     bottom: 5px;
     border-radius: 50%;
 
-background: #FDA300;
-
+    background: #fda300;
   }
 }
 .haeder__menu.menu {
@@ -48,8 +47,14 @@ background: #FDA300;
   line-height: 150%;
   color: $primerycolor-black;
   text-decoration: none;
+  transition: all 0.13s ease-in;
+  border-bottom: 3px solid transparent;
   &.active {
     color: #606060;
+  }
+  &:hover {
+    color: #ce8705;
+    border-bottom: 3.5px solid #e29506;
   }
 }
 .menu-list {
@@ -57,9 +62,6 @@ background: #FDA300;
   align-items: center;
   column-gap: 50px;
 }
-// .mobile-nav {
-//   display: none;
-// }
 
 .header__content {
   display: flex;
@@ -153,7 +155,8 @@ background: #FDA300;
     font-size: 34px;
     line-height: 150%;
     color: #828282;
-    transition: color 0.2s ease-in;
+
+    transition: all 0.3s ease-in;
     &:hover {
       color: #090909;
     }
